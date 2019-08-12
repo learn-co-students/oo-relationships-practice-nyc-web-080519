@@ -34,4 +34,15 @@ ingredient4 = Ingredient.new("sugar", 200, dessert3)
 ingredient5 = Ingredient.new("lemon", 20, dessert3)
 ingredient6 = Ingredient.new("pluot", 60, dessert2)
 
+driver1 = Driver.new("Dan")
+driver2 = Driver.new("John")
+
+passenger1 = Passenger.new("Amy")
+passenger2 = Passenger.new("Jessica")
+
+ride1 = Ride.new(passenger1, driver1, 10)
+ride2 = Ride.new(passenger2, driver2, 50)
+ride3 = Ride.new(passenger1, driver2, 5)
+
+
 Pry.start
