@@ -20,4 +20,4 @@ class Ride
         total_distances.to_f / self.all.count
     end
 
-end #end
+end
